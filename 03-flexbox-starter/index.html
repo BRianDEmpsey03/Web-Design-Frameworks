@@ -23,21 +23,30 @@
          by block. That's what Flexbox is for. -->
 
     <header>
-      <div>
-        <a href="index.html">
-          <span aria-hidden="true"></span>
+      <div class="mx-auto flex max-w-5xl flex-wrap items-center gap-4 px-5 py-4">
+       
+        <a
+          href="index.html"
+          class="flex items-center font-display text-xl font-black tracking-tight text-ink no-underline"
+        >
+          <span aria-hidden="true" class="mr-2 size-3 rounded-full bg-green"></span>
           Compass
         </a>
-        <nav aria-label="Primary">
-          <a href="index.html" aria-current="page">Home</a>
-          <a href="find-support-services.html">Find support services</a>
-          <a href="student-stories.html">Student stories</a>
-          <a href="accommodations-faq.html">Accommodations FAQ</a>
-          <a href="events.html">Events &amp; drop-ins</a>
-          <a href="request-support.html">Request support</a>
+
+        <nav aria-label="Primary" class="contents">
+        
+          <a href="index.html" aria-current="page" class="py-1 text-base font-bold text-ink no-underline">Home</a>
+          
+          
+          <a href="find-support-services.html" class="ml-auto py-1 text-base font-bold text-ink no-underline">Find support services</a>
+          <a href="student-stories.html" class="py-1 text-base font-bold text-ink no-underline">Student stories</a>
+          <a href="accommodations-faq.html" class="py-1 text-base font-bold text-ink no-underline">Accommodations FAQ</a>
+          <a href="events.html" class="py-1 text-base font-bold text-ink no-underline">Events &amp; drop-ins</a>
+          <a href="request-support.html" class="py-1 text-base font-bold text-ink no-underline">Request support</a>
         </nav>
       </div>
     </header>
+
 
     <main>
       <!-- Colour, border, padding, and type here are exactly what you built
